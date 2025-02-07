@@ -1,0 +1,20 @@
+@import url("stylesPerfil/topicos.css");
+@import url("stylesPerfil/header.css");
+@import url("stylesPerfil/banner.css");
+@import url("stylesPerfil/contato.css");
+
+:root {
+    --corFundo-sec: #FFFFFF;
+    --vermelho: #F0461A;
+    --fonteDestaque: #3996FF;
+    --corFonte-destaque: #690189;
+
+    --fontePrinci: 'League Spartan', sans-serif;
+}
+
+body {
+    background: rgb(84,9,150);
+    background: radial-gradient(circle, rgba(84,9,150,1) 0%, rgba(0,0,0,1) 100%);
+    color: #FFFFFF;
+    font-family: var(--fontePrinci);
+}
