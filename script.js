@@ -1,1 +1,1 @@
-alert ("Site ainda em fase de desenvolvimento; versões para tablet e computador ainda não estão finalizadas");
+// alert ("Site ainda em fase de desenvolvimento; versões para tablet e computador ainda não estão finalizadas");
