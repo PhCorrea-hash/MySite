@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesPerfil.css">
-    <script src="scriptPerfil.js"></script>
+    
 </head>
 <body>
     <header class="cabecalho">
@@ -52,17 +52,20 @@
   
   <ul class="topicos__lista">
     <ul class="lista__content">
-        <button onclick = "resumo()" id="button__resumo">
+      <div class="container__conteudo">
+        <button id="button__resumo" class="botao__curriculo">
           Resumo Profissional
         </button>
         <li id="lista_itens-resumo">
         <div id="lista_container_resumo">
-          <h2 class="lista__titulo">Meu Resumo</h2>
-          <p class="lista__texto">Aqui esta meu resumo profissional</p>
+          <h2 class="lista__titulo"></h2>
+          <p class="lista__texto">Profissional iniciante, com experiência em vendas, pós-vendas e marketing digital, focado em atendimento ao cliente, fidelização e suporte a estratégias digitais. Possui conhecimentos em ferramentas como Microsoft Excel, MATLAB, HTML, CSS, JavaScript com ênfase em front-end e desenvolvimentos de web-sites. Proativo, com boa capacidade de trabalho em equipe e motivação para aprender e crescer profissionalmente. Em busca de uma oportunidade para contribuir e agregar valor à organização.</p>
         </div>
       </li>
+    </div>
       
-      <button onclick="habilidades()" id="button__habilidades">
+    <div class="container__conteudo">
+      <button id="button__habilidades" class="botao__curriculo">
           Habilidades e Competencias
         </button>
         <li id="lista__itens-habilidades">
@@ -71,8 +74,10 @@
           <p class="lista__texto">Aqui estao as minhas principais habilidades</p>
         </div>
       </li>
+    </div>
       
-      <button onclick="experiencias()" id="button__experiencias">
+    <div class="container__conteudo">
+      <button id="button__experiencias" class="botao__curriculo">
           Minhas Experiencias
         </button>
         <li id="lista__itens-experiencias">
@@ -81,8 +86,10 @@
           <p class="lista__texto">Confira a minha trajetoria profissional</p>
         </div>
       </li>
+    </div>
       
-      <button onclick="formacao()" id="button__formacao">
+    <div class="container__conteudo">
+      <button id="button__formacao" class="botao__curriculo">
           Formacao Academica
         </button>
         <li id="lista__itens-formacao">
@@ -91,8 +98,10 @@
           <p class="lista__texto">Confira a minha trajetoria profissional</p>
         </div>
       </li>
+      </div>
       
-      <button onclick="cursos()" id="button__cursos">
+      <div class="container__conteudo">
+      <button id="button__cursos" class="botao__curriculo">
           Meus Cursos
         </button>
         <li id="lista__itens-cursos">
@@ -101,8 +110,10 @@
           <p class="lista__texto">Confira a minha trajetoria profissional</p>
         </div>
       </li>
+    </div>
       
-      <button onclick="certificados()" id="button__certificados">
+    <div class="container__conteudo">
+      <button id="button__certificados" class="botao__curriculo">
           Meus Certificados
         </button>
         <li id="lista__itens-certificados">
@@ -111,6 +122,7 @@
           <p class="lista__texto">Confira a minha trajetoria profissional</p>
         </div>
       </li>
+    </div>
     </ul>
   </ul>
 </sectioin>
@@ -139,7 +151,6 @@
   <h2 class="rodape__titulo">Pedro Henrique Martins Alves Correa</h2>
 </footer>
       </body>
+      <script src="scriptPerfil.js"></script>
     </html>
 
-</body>
-</html>
